@@ -1,0 +1,59 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.footer{
+    margin-top: auto;
+}
+.container{
+    max-width: 1130px;
+    padding:0px 15px;
+    margin: 0 auto;
+}
+.header-menu-item{
+    font-size:$header-menu-item-font-size;
+    line-height:$header-menu-item-line-height;
+    color:$header-menu-item-color;
+    font-family:$header-menu-item-fonts;
+}
+.title{
+    font-size:$title-font-size;
+    line-height:$title-line-height;
+    color:$title-color;
+    font-family:$title-fonts;
+}
+.title-item{
+    font-size: $title-item-font-size;
+    line-height:$title-item-line-height;
+    color:$title-item-color;
+    font-family:$title-item-fonts;
+}
+.intro-item{
+    font-size:$intro-item-font-size;
+    line-height:$intro-item-line-height;
+    color:$intro-item-color;
+    font-family:$intro-item-fonts;
+}
+.button-item{
+    font-size:$button-item-font-size;
+    line-height:$button-item-line-height;
+    color:$button-item-color;
+    padding:$button-item-padding;
+    background-color:$button-item-background;
+    border-radius:$button-item-border-radius;
+    font-family:$button-item-fonts;
+}
+.button{
+    font-size:$button-font-size;
+    line-height:$button-line-height;
+    color:$button-color;
+    border-radius:$button-border-radius;
+    font-family:$button-fonts;
+}
+.footer-menu-item{
+    font-size:$footer-menu-item-font-size;
+    line-height:$footer-menu-item-line-height;
+    color:$footer-menu-item-color;
+    font-family:$footer-menu-item-fonts;
+}
