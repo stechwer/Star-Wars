@@ -127,3 +127,24 @@
         color: $main-color;
     }
 }
+.slick-dots{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top:-50px;
+    position: relative;
+}
+.slick-dots button{
+    font-size: 0;
+    border-radius: 50%;
+    background:transparent;
+    border-color:#8DD83D;
+    height: 10px;
+    width: 10px;
+}
+.slick-dots li+li{
+    padding-left: 10px;
+}
+.slick-active button{
+    background-color:#8DD83D;
+}
