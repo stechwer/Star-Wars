@@ -1,6 +1,6 @@
 ///////////////////////////////////////////fonts//////////////////////////////////
 
-$main-fonts:'HelveticaNeue', sans-serif;
+$main-fonts:'HelveticaNeueCyr', sans-serif;
 $main-fonts-weight:400;
 
 ///////////////////////////////////////////color///////////////////////////////////
@@ -10,9 +10,12 @@ $title-color:#FFFFFF;
 $subtitle-color:#FFFFFF;
 $title-color-item:#435766;
 $intro-color-item:#435766;
+$header-top-background:#373a3c;
 $header-menu-color-item: rgba(255, 255, 255, 0.5);
 $footer-menu-color-item:#FFFFFF;
 $footer-title-color:#7DD42F;
+$header-button-background-left:#8DD83D;
+$header-button-background-right:linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
 $button-color:#FFFFFF;
 
 ///////////////////////////////////////////header-menu-item/////////////////////////
@@ -20,28 +23,28 @@ $button-color:#FFFFFF;
 $header-menu-item-font-size:16px;
 $header-menu-item-line-height:16px;
 $header-menu-item-color: rgba(255, 255, 255, 0.5);
-$header-menu-item-fonts:'HelveticaNeue', sans-serif;
+$header-menu-item-fonts:'HelveticaNeueCyr', sans-serif;
 
 //////////////////////////////////////////title/////////////////////////////////////
 
 $title-font-size:48px;
 $title-line-height:57px;
 $title-color:#FFFFFF;
-$title-fonts:'HelveticaNeue', sans-serif;
+$title-fonts:'HelveticaNeueCyr', sans-serif;
 
 ///////////////////////////////////////title-item///////////////////////////////////////
 
 $title-item-font-size:24px;
 $title-item-line-height:28px;
 $title-item-color:#435766;
-$title-item-fonts:'HelveticaNeue', sans-serif;
+$title-item-fonts:'HelveticaNeueCyr', sans-serif;
 
 ///////////////////////////////////////intro-item///////////////////////////////////////
 
 $intro-item-font-size:18px;
 $intro-item-line-height:21px;
 $intro-item-color:#435766;
-$intro-item-fonts:'HelveticaNeue', sans-serif;
+$intro-item-fonts:'HelveticaNeueCyr', sans-serif;
 
 ///////////////////////////////////////button-item///////////////////////////////////////
 
@@ -51,7 +54,7 @@ $button-item-color:#FFFFFF;
 $button-item-padding:20px 100px;
 $button-item-background:#8DD83D;
 $button-item-border-radius:4px;
-$button-item-fonts:'HelveticaNeue', sans-serif;
+$button-item-fonts:'HelveticaNeueCyr', sans-serif;
 
 ///////////////////////////////////////button///////////////////////////////////////
 
@@ -59,11 +62,11 @@ $button-font-size:16px;
 $button-line-height:21px;
 $button-color:#FFFFFF;
 $button-border-radius:4px;
-$button-fonts:'HelveticaNeue', sans-serif;
+$button-fonts:'HelveticaNeueCyr', sans-serif;
 
 /////////////////////////////////////footer-menu-item//////////////////////////////
 
 $footer-menu-item-font-size:14px;
 $footer-menu-item-line-height:16px;
 $footer-menu-item-color:#FFFFFF;
-$footer-menu-item-fonts:'HelveticaNeue', sans-serif;
+$footer-menu-item-fonts:'HelveticaNeueCyr', sans-serif;

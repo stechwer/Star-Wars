@@ -1,5 +1,6 @@
 a{
     text-decoration: none;
+    display: inline-block;
 }
 li{
     list-style: none;
@@ -10,4 +11,14 @@ ul{
 img{
     max-width: 100%;
     display: block;
+}
+body{
+    font-family:$main-fonts;
+    font-weight:$main-fonts-weight;
+}
+*{
+    font-weight:inherit;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
 }
