@@ -28,12 +28,14 @@
     line-height:$title-item-line-height;
     color:$title-item-color;
     font-family:$title-item-fonts;
+    margin-bottom: $title-item-margin-bottom;
 }
 .intro-item{
     font-size:$intro-item-font-size;
     line-height:$intro-item-line-height;
     color:$intro-item-color;
     font-family:$intro-item-fonts;
+    margin-bottom:$intro-item-margin-bottom;
 }
 .button-item{
     font-size:$button-item-font-size;

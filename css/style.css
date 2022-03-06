@@ -369,7 +369,7 @@ body {
   font-weight: inherit;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -503,6 +503,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 28px;
   color: #435766;
   font-family: "HelveticaNeueCyr", sans-serif;
+  margin-bottom: 38px;
 }
 
 .intro-item {
@@ -510,13 +511,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 21px;
   color: #435766;
   font-family: "HelveticaNeueCyr", sans-serif;
+  margin-bottom: 13px;
 }
 
 .button-item {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
-  padding: 20px 100px;
+  padding: 20px 23px;
   background-color: #8DD83D;
   border-radius: 4px;
   font-family: "HelveticaNeueCyr", sans-serif;
@@ -649,7 +651,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #8DD83D;
 }
 .header-content-btn__green:hover {
-  color: #686C6F;
+  color: #686c6f;
 }
 .header-content-btn__grey {
   padding: 9px 19px;
@@ -682,7 +684,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0;
   border-radius: 50%;
   background: transparent;
-  border-color: #8DD83D;
+  border-color: #8dd83d;
   height: 10px;
   width: 10px;
 }
@@ -692,5 +694,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slick-active button {
-  background-color: #8DD83D;
+  background-color: #8dd83d;
+}
+
+.consoles {
+  background: radial-gradient(100% 100% at 50% 0%, #686c6f 0%, #373a3c 100%);
+  padding: 100px 0px 162px;
+}
+.consoles-image {
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.consoles__title {
+  text-align: center;
+}
+.consoles__text {
+  text-align: center;
+  font-size: 36px;
+  line-height: 42px;
+  color: #FFFFFF;
+  margin-bottom: 43px;
+}
+.consoles-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.consoles-item {
+  width: 320px;
+  border: 1px solid #8DD83D;
+}
+.consoles-item__image {
+  width: 100%;
+}
+.consoles-content {
+  padding: 23px 21px 27px 21px;
+  background: #FFFFFF;
 }

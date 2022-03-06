@@ -92,31 +92,31 @@
             line-height: 28px;
             padding-bottom: 134px;
         }
-        &-buttons{
+        &-buttons {
             display: flex;
             align-items: center;
         }
-        &-button + &-button{
+        &-button + &-button {
             padding-left: 13px;
         }
-        &-btn{
-        color: $main-color;
-        font-size: 16px;
-        line-height: 21px;
-        border-radius: 4px;
+        &-btn {
+            color: $main-color;
+            font-size: 16px;
+            line-height: 21px;
+            border-radius: 4px;
         }
-        &-btn__green{
+        &-btn__green {
             padding: 8px 24px 9px 19px;
-            background-color:$header-button-background-left;
-            &:hover{
-                color:#686C6F;
+            background-color: $header-button-background-left;
+            &:hover {
+                color: #686c6f;
             }
         }
-        &-btn__grey{
-            padding:9px 19px;
+        &-btn__grey {
+            padding: 9px 19px;
             background: $header-button-background-right;
-            &:hover{
-                color:$header-button-background-left;
+            &:hover {
+                color: $header-button-background-left;
             }
         }
     }
@@ -127,24 +127,56 @@
         color: $main-color;
     }
 }
-.slick-dots{
+.slick-dots {
     margin: 0;
     display: flex;
     justify-content: center;
-    margin-top:-50px;
+    margin-top: -50px;
     position: relative;
 }
-.slick-dots button{
+.slick-dots button {
     font-size: 0;
     border-radius: 50%;
-    background:transparent;
-    border-color:#8DD83D;
+    background: transparent;
+    border-color: #8dd83d;
     height: 10px;
     width: 10px;
 }
-.slick-dots li+li{
+.slick-dots li + li {
     padding-left: 10px;
 }
-.slick-active button{
-    background-color:#8DD83D;
+.slick-active button {
+    background-color: #8dd83d;
+}
+.consoles {
+    background: radial-gradient(100% 100% at 50% 0%, #686c6f 0%, #373a3c 100%);
+    padding: 100px 0px 162px;
+    &-image {
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+    &__title {
+        text-align: center;
+    }
+    &__text {
+        text-align: center;
+        font-size: 36px;
+        line-height: 42px;
+        color:$main-color;
+        margin-bottom: 43px;
+    }
+    &-inner{
+        @include flex;
+    }
+    &-item{
+        width: 320px;
+        border: 1px solid #8DD83D;
+        &__image{
+            width: 100%;
+        }
+    }
+    &-content{
+        padding: 23px 21px 27px 21px;
+        background:$main-color;
+    }
 }
