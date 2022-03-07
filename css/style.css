@@ -829,5 +829,39 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #8DD83D;
 }
 .design-btn__green:hover {
-  color: #686C6F;
+  color: #686c6f;
+}
+
+.footer {
+  padding: 58px 0px;
+  background: #373a3c;
+  border-radius: 4px;
+}
+.footer-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer__title {
+  color: #7DD42F;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 28px;
+}
+.footer-menu__link:hover {
+  color: lightsalmon;
+}
+.footer-menu__list + .footer-menu__list {
+  padding-top: 28px;
+}
+.footer-menu__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer-social-link + .footer-social-link {
+  padding-left: 20px;
 }

@@ -237,28 +237,56 @@
         max-width: 533px;
         font-size: 24px;
         line-height: 28px;
-        color:$main-color;
+        color: $main-color;
         margin-bottom: 37px;
     }
-    &-buttons{
+    &-buttons {
         display: flex;
         align-items: center;
     }
-    &-button + &-button{
+    &-button + &-button {
         padding-left: 15px;
     }
-    &-btn__grey{
-        padding:20px 61px 19px 52px;
-        background:$design-button-background-left;
-        &:hover{
-            color:$design-button-background-right;
+    &-btn__grey {
+        padding: 20px 61px 19px 52px;
+        background: $design-button-background-left;
+        &:hover {
+            color: $design-button-background-right;
         }
     }
-    &-btn__green{
-        padding:20px 23px;
-        background-color:$design-button-background-right;
-        &:hover{
-            color:#686C6F;
+    &-btn__green {
+        padding: 20px 23px;
+        background-color: $design-button-background-right;
+        &:hover {
+            color: #686c6f;
         }
+    }
+}
+.footer {
+    padding: 58px 0px;
+    background: #373a3c;
+    border-radius: 4px;
+    &-inner {
+        @include flex;
+    }
+    &__title {
+        color: $footer-title-color;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 28px;
+    }
+    &-menu__link{
+        &:hover{
+            color:lightsalmon;
+        }
+    }
+    &-menu__list + &-menu__list{
+        padding-top: 28px;
+    }
+    &-menu__images{
+        display: flex;
+    }
+    &-social-link + &-social-link{
+        padding-left:20px;
     }
 }
