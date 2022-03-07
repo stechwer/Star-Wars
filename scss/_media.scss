@@ -1,0 +1,82 @@
+@media(max-width:1200px){
+    .header-person{
+        display: none;
+    }
+}
+@media(max-width:1050px){
+    .consoles-inner{
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .games-inner{
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:700px){
+    .design__title{
+        font-size: 38px;
+    }
+    .design__text{
+        font-size: 20px;
+    }
+    .design-btn__grey{
+        padding: 15px 20px;
+    }
+    .design-btn__green{
+        padding: 15px 20px;
+    }
+}
+@media(max-width:500px){
+    .consoles__title{
+        font-size: 35px;
+    }
+    .consoles__text{
+        font-size: 25px;
+    }
+    .header-menu{
+        display: none;
+    }
+    .consoles-item{
+        width: 280px;
+    }
+    .games-item{
+        width: 280px;
+    }
+    .games-content-btn{
+        padding:20px 0px;
+    }
+    .console-btn{
+        padding: 20px 5px;
+    }
+    .games__title{
+        font-size: 28px;
+    }
+    .design-btn__grey{
+        display: none;
+    }
+    .design-button + .design-button{
+        padding: 0;
+    }
+    .header-burger{
+        display: block;
+    }
+}
+@media(max-width:450px){
+    .footer-menu-item{
+        font-size: 10px;
+    }
+    .footer__title{
+        font-size: 14px;
+    }
+}
+@media(max-width:350px){
+    .header-content-btn__green{
+        padding:10px;
+    }
+    .header-content-btn__grey{
+        padding:10px;
+    }
+}
