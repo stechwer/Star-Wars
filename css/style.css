@@ -761,7 +761,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .games-item {
   width: 320px;
-  border: 1px solid #8DD83D;
+  border: 1px solid #8dd83d;
 }
 .games-item__image {
   width: 100%;
@@ -787,4 +787,47 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .games-btn:hover {
   color: cadetblue;
+}
+
+.design {
+  padding: 114px 0px 145px;
+  background-image: url(../images/design-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.design__title {
+  margin-bottom: 9px;
+}
+.design__text {
+  max-width: 533px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+.design-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.design-button + .design-button {
+  padding-left: 15px;
+}
+.design-btn__grey {
+  padding: 20px 61px 19px 52px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#686C6F), to(#373A3C));
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+.design-btn__grey:hover {
+  color: #8DD83D;
+}
+.design-btn__green {
+  padding: 20px 23px;
+  background-color: #8DD83D;
+}
+.design-btn__green:hover {
+  color: #686C6F;
 }
