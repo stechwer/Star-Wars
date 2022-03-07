@@ -522,6 +522,8 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #8DD83D;
   border-radius: 4px;
   font-family: "HelveticaNeueCyr", sans-serif;
+  width: 235px;
+  text-align: center;
 }
 
 .button {
@@ -725,7 +727,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .consoles-item {
   width: 320px;
-  border: 1px solid #8DD83D;
+  border: 1px solid #8dd83d;
 }
 .consoles-item__image {
   width: 100%;
@@ -733,4 +735,56 @@ h1, h2, h3, h4, h5, h6, p {
 .consoles-content {
   padding: 23px 21px 27px 21px;
   background: #FFFFFF;
+}
+
+.games {
+  background-image: url(../images/games-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0px 140px;
+}
+.games__title {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 54px;
+}
+.games-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 74px;
+}
+.games-item {
+  width: 320px;
+  border: 1px solid #8DD83D;
+}
+.games-item__image {
+  width: 100%;
+  height: 180px;
+}
+.games-content {
+  padding: 22px 21px 27px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+.games-btn {
+  display: block;
+  width: 115px;
+  color: #FFFFFF;
+  font-size: 21px;
+  line-height: 21px;
+  padding: 11px 47px 21px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.games-btn:hover {
+  color: cadetblue;
 }

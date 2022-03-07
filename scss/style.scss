@@ -162,21 +162,66 @@
         text-align: center;
         font-size: 36px;
         line-height: 42px;
-        color:$main-color;
+        color: $main-color;
         margin-bottom: 43px;
     }
-    &-inner{
+    &-inner {
         @include flex;
     }
-    &-item{
+    &-item {
         width: 320px;
-        border: 1px solid #8DD83D;
-        &__image{
+        border: 1px solid #8dd83d;
+        &__image {
             width: 100%;
         }
     }
-    &-content{
+    &-content {
         padding: 23px 21px 27px 21px;
-        background:$main-color;
+        background: $main-color;
+    }
+}
+.games {
+    background-image: url(../images/games-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 140px;
+    &__title {
+        text-align: center;
+        color: $main-color;
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 54px;
+    }
+    &-inner {
+        @include flex;
+        margin-bottom:74px;
+    }
+    &-item {
+        width: 320px;
+        border: 1px solid #8DD83D;
+        &__image {
+            width: 100%;
+            height: 180px;
+        }
+    }
+    &-content {
+        padding: 22px 21px 27px;
+        background: #ffffff;
+        mix-blend-mode: normal;
+        opacity: 0.9;
+    }
+    &-btn {
+        display: block;
+        width: 115px;
+        color: $main-color;
+        font-size: 21px;
+        line-height: 21px;
+        padding: 11px 47px 21px;
+        background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+        border-radius: 4px;
+        margin: 0 auto;
+        &:hover{
+            color:cadetblue;
+        }
     }
 }
